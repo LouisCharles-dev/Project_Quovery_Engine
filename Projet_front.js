@@ -56,6 +56,7 @@ function clicked() {
 
 function bill() {
 
+    
     //On vide la div result pour pouvoir accueillir les documents que l'on veut.
 
     result.innerHTML = "";
