@@ -1,6 +1,6 @@
 * {
-    font-family: "HK Grotesk", "SF UI Text", sans-serif;
     box-sizing: border-box;
+    font-family: "HK Grotesk", "SF UI Text", sans-serif; 
 }
 
 body {
@@ -13,8 +13,7 @@ body {
 
 .header {
     position: absolute;
-    margin-top: 42.48px;
-    margin-left: 158px;
+    margin:42.48px 0 0 158px;
 }
 
 .logo {
@@ -22,16 +21,16 @@ body {
 }
 
 .site_title {
-    color: #A8A8C1;
     margin-left: 15.38px;
+    color: #A8A8C1;
 }
 
 /**************************************************************** Article first section */
 
 .first_section {
-    background-color: #151B2B;
     display: flex;
     height: 100vh;
+    background-color: #151B2B;
 }
 
 .head_article_first_section {
@@ -41,19 +40,16 @@ body {
 .article_first_section {
     display: flex;
     flex-direction: column;
-    width: 40%;
-    margin-left: 151px;
-    margin-top: 210px;
     max-width: 475px;
+    margin:210px 0 0 151px;
 }
 
 .text_first_section {
-    color: #8686B2;
+    max-width: 475px;
+    margin:24px 0 48px 0;
     font-family: 'SF UI Text';
     font-size: 16px;
-    margin-bottom: 48px;
-    margin-top: 24px;
-    max-width: 475px;
+    color: #8686B2;
 }
 
 .title_first_section {
@@ -63,8 +59,7 @@ body {
 
 .subtitle_first_section {
     font-size: 25px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin:24px 0;
 }
 
 .title_first_section,
@@ -75,14 +70,14 @@ body {
 /***************************************************************** Picture first section */
 
 .picture_first_section {
-    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 80px 165px 159px 50px;
+    width: 60%;
     height: 687px;
     max-width: 100%;
     max-height: 100%;
+    margin: 80px 165px 159px 50px;
 }
 
 /***************************************************************** Button layout first section*/
@@ -93,30 +88,30 @@ body {
 }
 
 .button_Github {
-    background-color: #454658;
-    color: white;
-    border: none;
-    font-size: 14px;
+    display: flex;
+    align-items: center;
     padding: 9px 16px;
     border-radius: 3px;
     margin-right: 24px;
-    display: flex;
-    align-items: center;
-    font-family: 'SF UI Text';
+    border: none;
+    font-size: 14px;
     font-weight: 600;
+    font-family: 'SF UI Text';
+    background-color: #454658;
+    color: white;
 }
 
 .button_Discord {
-    background-color: #6578C0;
-    color: white;
-    border: none;
-    font-size: 14px;
-    padding: 9px 16px;
-    border-radius: 3px;
     display: flex;
     align-items: center;
-    font-family: 'SF UI Text';
+    border-radius: 3px;
+    padding: 9px 16px;
+    font-size: 14px;
     font-weight: 600;
+    border: none;
+    background-color: #6578C0;
+    color: white;
+    font-family: 'SF UI Text';
 }
 
 .btn {
@@ -128,33 +123,32 @@ body {
 .button_star {
     display: flex;
     align-self: center;
-    border: 1px solid #D1D2D3;
-    border-radius: 2px;
-    background: #F8FAFB;
-    display: flex;
     align-items: center;
-    color: #000;
+    justify-content: space-between;
+    margin-left: 20px;
     height: 28px;
     width: 95px;
-    justify-content: space-between;
+    border: 1px solid #D1D2D3;
+    border-radius: 2px;
     font-size: 10px;
-    margin-left: 20px;
+    background: #F8FAFB;
+    color:black;
 }
 
 .star {
     display: flex;
-    width: 61px;
     justify-content: center;
     align-items: center;
+    width: 61px;
 }
 
 .likes {
     display: flex;
     align-items: center;
-    border-left: 1px solid #D1D2D3;
-    background: #FFFFFF;
     height: 26px;
     width: 32px;
+    border-left: 1px solid #D1D2D3;
+    background: #FFFFFF;
 }
 
 /***************************************************************** Second section layout */
@@ -162,9 +156,8 @@ body {
 .second_section {
     display: flex;
     flex-direction: column;
-    margin-top: 96px;
-    margin-bottom: 53px;
     align-items: center;
+    margin:96px 0 53px 0;
 }
 
 .article_second_section {
@@ -173,27 +166,27 @@ body {
 }
 
 .title_second_section {
-    color: #454658;
     align-self: center;
     font-size: 32px;
+    color: #454658;
 }
 
 .text_article_second_section {
     display: flex;
-    margin: 24px 324px 32px 279px;
     text-align: center;
-    color: #454658;
+    margin: 24px 324px 32px 279px;
     font-size: 16px;
     font-family: 'SF UI Text';
+    color: #454658;
 }
 
 /***************************************************************** Third section layout */
 
 .third_section {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     background-color: #4163a1;
-    flex-direction: column;
 }
 
 .title_third_section {
@@ -205,20 +198,20 @@ body {
 
 .compt_doc {
     display: flex;
-    font-size: 27px;
-    color: white;
     justify-content: center;
     margin-top: 50px;
     font-weight: 800;
+    font-size: 27px;
+    color: white;
 }
 
 .result {
     display: flex;
     flex-direction: column;
-    color: white;
-    margin-top: 50px;
     align-self: center;
+    margin-top: 50px;
     font-size: 20px;
+    color: white;
 }
 
 /*****************************************************************  On change le background de tous les enfants pair de la div result. */
@@ -251,16 +244,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 60px;
+    width: 230px;
     border-radius: 20px;
-    background-color: #4163a1;
-    color: white;
     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25),
         -4px -4px 4px 0 rgba(255, 255, 255, 0.103);
     border: none;
     margin: 0 15px;
     font-size: 20px;
-    height: 60px;
-    width: 230px;
+    background-color: #4163a1;
+    color: white;
 }
 
 /***************************************************************** Style buttons when clicked */
@@ -269,25 +262,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 60px;
+    width: 230px;
     border-radius: 20px;
-    background-color: #4163a1;
-    color: white;
     box-shadow:
         inset -4px -4px 4px 0 rgba(255, 255, 255, 0.103),
         inset 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
     border: none;
     margin: 0 15px;
     font-size: 20px;
-    height: 60px;
-    width: 230px;
+    background-color: #4163a1;
+    color: white;
 }
 
 /***************************************************************** Fourth section layout */
 
 .fourth_section {
     display: flex;
-    min-width: 100%;
     flex-direction: column;
+    min-width: 100%;
 }
 
 .first_row {
@@ -304,27 +297,27 @@ body {
 }
 
 .title_fourth_section {
-    color: #454658;
     font-size: 24px;
+    color: #454658;
 }
 
 .text_fourth_section {
-    color: #454658;
     font-size: 16px;
     font-family: 'SF UI Text';
+    color: #454658;
 }
 
 .see_more {
-    color: #5D64D2;
-    font-family: 'SF UI Text';
     font-size: 12px;
+    font-family: 'SF UI Text';
+    color: #5D64D2;
 }
 
 a {
+    font-size: 12px;
     outline: none;
     text-decoration: none;
     color: #5D64D2;
-    font-size: 12px;
 }
 
 .first_article_fourth_section,
@@ -339,8 +332,7 @@ a {
 
 .first_article_fourth_section,
 .third_article_fourth_section {
-    margin-right: 203px;
-    margin-left: 189px;
+    margin:0 203px 0 189px;
 }
 
 .second_article_fourth_section,
@@ -362,32 +354,29 @@ a {
     /************************************************************* First section portable responsive layout */
 
     .header {
-        max-width: 100%;
-        margin: 0;
         display: flex;
         justify-content: center;
         position: static;
+        max-width: 100%;
+        margin: 0;
         background-color: #151B2B;
     }
 
     .first_section {
         flex-direction: column;
         justify-content: center;
-
     }
 
     .article_first_section {
-        width: 100%;
-        height: 30%;
-        margin-left: 0;
-        margin-top: 10px;
         text-align: center;
+        width: 100%;
         max-width: 100%;
+        height: 30%;
+        margin:10px 0 0 0;
     }
 
     .text_article_first_section {
-        margin-right: 40px;
-        margin-left: 40px;
+        margin:0 40px 0 40px;
     }
 
     .picture_first_section {
@@ -402,12 +391,9 @@ a {
     }
 
     .text_first_section {
-        font-size: 16px;
         max-width: 100%;
-        margin-right: 40px;
-        margin-left: 40px;
-        margin-bottom: 25px;
-        margin-top: 0;
+        margin:0 40px 25px 40px;
+        font-size: 16px;
     }
 
     .title_first_section {
@@ -471,26 +457,24 @@ a {
 
     .fourth_section {
         display: flex;
-        min-width: 100%;
         flex-direction: column;
+        min-width: 100%;
         padding: 20px;
     }
 
     .first_article_fourth_section,
     .third_article_fourth_section {
-        margin-right: 0px;
-        margin-left: 0px;
-        margin-bottom: 65px;
-        width: 100%;
         align-items: center;
         text-align: center;
+        width: 100%;
+        margin:0 0px 65px 0;
     }
 
     .second_article_fourth_section,
     .fourth_article_fourth_section {
-        width: 100%;
         align-items: center;
         text-align: center;
+        width: 100%;
         margin-right: 0px;
     }
 
@@ -531,26 +515,24 @@ a {
 
     .fourth_section {
         display: flex;
-        min-width: 100%;
         flex-direction: column;
+        min-width: 100%;
         padding: 20px;
     }
 
     .first_article_fourth_section,
     .third_article_fourth_section {
-        margin-right: 0px;
-        margin-left: 0px;
-        margin-bottom: 65px;
-        width: 100%;
         align-items: center;
         text-align: center;
+        width: 100%;
+        margin:0 0px 65px 0px;
     }
 
     .second_article_fourth_section,
     .fourth_article_fourth_section {
-        width: 100%;
         align-items: center;
         text-align: center;
+        width: 100%;
         margin-right: 0px;
     }
 
